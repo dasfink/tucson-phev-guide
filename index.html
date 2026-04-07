@@ -965,7 +965,7 @@
   <div class="card">
     <div class="label">Helpful extras</div>
     <ul>
-      <li>Magnetic parts tray — don't lose screws under the car</li>
+      <li><strong>Magnetic parts tray</strong> — <a href="https://www.harborfreight.com/9-12-in-x-5-12-in-magnetic-stainless-steel-parts-tray-56800.html" target="_blank" style="color:var(--safe)">U.S. General 9½×5½" stainless steel (HF #56800, ~$13)</a> — rubber-coated magnets stick to toolbox or any steel surface, won't scratch paint. Keeps screws from vanishing under the car.</li>
       <li>Painter's tape — wrap screwdriver tips to avoid scratching bumper paint</li>
       <li>Creeper or old blanket — you'll be on your back</li>
       <li>Phone/camera — photograph connector orientation and screw locations before removing</li>
@@ -1172,44 +1172,68 @@
   <h3>CPA Connector Release (Detail)</h3>
   <div class="card">
     <div class="diagram-container">
-      <svg viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
-        <!-- Connector body -->
-        <rect x="100" y="50" width="200" height="80" rx="8" fill="#2a2a4a" stroke="#4a6fa5" stroke-width="2"/>
-        <!-- Pins inside -->
-        <rect x="140" y="65" width="6" height="50" rx="1" fill="#888"/>
-        <rect x="160" y="65" width="6" height="50" rx="1" fill="#888"/>
-        <rect x="180" y="65" width="6" height="50" rx="1" fill="#888"/>
-        <rect x="200" y="65" width="6" height="50" rx="1" fill="#888"/>
-        <rect x="220" y="65" width="6" height="50" rx="1" fill="#888"/>
-        <rect x="240" y="65" width="6" height="50" rx="1" fill="#888"/>
-        <!-- CPA tab (yellow) -->
-        <rect x="115" y="135" width="70" height="20" rx="4" fill="#f0c040" stroke="#c0a030" stroke-width="1.5"/>
-        <text x="150" y="149" text-anchor="middle" fill="#333" font-size="9" font-weight="700">CPA TAB</text>
-        <!-- Arrow showing slide direction -->
-        <line x1="190" y1="145" x2="230" y2="145" stroke="#f0c040" stroke-width="2.5" marker-end="url(#arrowYellow)"/>
-        <text x="245" y="149" fill="#f0c040" font-size="9" font-weight="600">SLIDE BACK</text>
-        <!-- Main latch -->
-        <rect x="270" y="80" width="25" height="30" rx="3" fill="#4a6fa5" stroke="#6a8fc5" stroke-width="1.5"/>
-        <text x="282" y="99" text-anchor="middle" fill="#fff" font-size="8" font-weight="700">LATCH</text>
-        <!-- Arrow showing press direction -->
-        <line x1="282" y1="115" x2="282" y2="130" stroke="#e94560" stroke-width="2.5" marker-end="url(#arrowRed)"/>
-        <text x="282" y="145" text-anchor="middle" fill="#e94560" font-size="8" font-weight="600">PRESS</text>
-        <!-- Step labels -->
-        <circle cx="150" cy="175" r="10" fill="#e94560" stroke="#fff" stroke-width="1.5"/>
-        <text x="150" y="179" text-anchor="middle" fill="#fff" font-size="10" font-weight="700">1</text>
-        <text x="167" y="179" fill="#eee" font-size="9">Slide CPA tab back ~5mm</text>
-        <circle cx="150" cy="195" r="10" fill="#e94560" stroke="#fff" stroke-width="1.5"/>
-        <text x="150" y="199" text-anchor="middle" fill="#fff" font-size="10" font-weight="700">2</text>
-        <text x="167" y="199" fill="#eee" font-size="9">Press main latch &amp; pull connector out</text>
-        <!-- Arrowhead defs -->
+      <svg viewBox="0 0 420 300" xmlns="http://www.w3.org/2000/svg">
         <defs>
-          <marker id="arrowYellow" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
-            <path d="M0,0 L8,3 L0,6" fill="#f0c040"/>
+          <marker id="arrowYellow2" markerWidth="10" markerHeight="8" refX="10" refY="4" orient="auto">
+            <path d="M0,0 L10,4 L0,8" fill="#f0c040"/>
           </marker>
-          <marker id="arrowRed" markerWidth="6" markerHeight="8" refX="3" refY="8" orient="auto">
-            <path d="M0,0 L3,8 L6,0" fill="#e94560"/>
+          <marker id="arrowRed2" markerWidth="8" markerHeight="10" refX="4" refY="10" orient="auto">
+            <path d="M0,0 L4,10 L8,0" fill="#e94560"/>
+          </marker>
+          <marker id="arrowGreen" markerWidth="10" markerHeight="8" refX="0" refY="4" orient="auto">
+            <path d="M10,0 L0,4 L10,8" fill="#4ecca3"/>
           </marker>
         </defs>
+        <!-- Title -->
+        <text x="210" y="22" text-anchor="middle" fill="#eee" font-size="13" font-weight="700">CONNECTOR DISCONNECT — 2 STEPS</text>
+        <!-- Connector housing -->
+        <rect x="60" y="45" width="240" height="100" rx="10" fill="#2a2a4a" stroke="#4a6fa5" stroke-width="2.5"/>
+        <text x="180" y="62" text-anchor="middle" fill="#6a8fc5" font-size="9" font-weight="600">CONNECTOR HOUSING</text>
+        <!-- Pins inside -->
+        <rect x="100" y="72" width="8" height="55" rx="2" fill="#777"/>
+        <rect x="125" y="72" width="8" height="55" rx="2" fill="#777"/>
+        <rect x="150" y="72" width="8" height="55" rx="2" fill="#777"/>
+        <rect x="175" y="72" width="8" height="55" rx="2" fill="#777"/>
+        <rect x="200" y="72" width="8" height="55" rx="2" fill="#777"/>
+        <rect x="225" y="72" width="8" height="55" rx="2" fill="#777"/>
+        <rect x="250" y="72" width="8" height="55" rx="2" fill="#777"/>
+        <!-- Wire harness coming out bottom -->
+        <path d="M130 145 Q130 165 115 175" stroke="#666" stroke-width="3" fill="none"/>
+        <path d="M160 145 Q160 170 150 180" stroke="#666" stroke-width="3" fill="none"/>
+        <path d="M190 145 Q190 170 185 180" stroke="#666" stroke-width="3" fill="none"/>
+        <path d="M220 145 Q220 165 230 175" stroke="#666" stroke-width="3" fill="none"/>
+        <!-- STEP 1: CPA tab (yellow) -->
+        <rect x="72" y="148" width="90" height="26" rx="5" fill="#f0c040" stroke="#c0a030" stroke-width="2"/>
+        <text x="117" y="166" text-anchor="middle" fill="#333" font-size="11" font-weight="700">CPA TAB</text>
+        <!-- Step 1 badge -->
+        <circle cx="30" cy="161" r="14" fill="#e94560" stroke="#fff" stroke-width="2"/>
+        <text x="30" y="166" text-anchor="middle" fill="#fff" font-size="13" font-weight="700">1</text>
+        <!-- Arrow: slide CPA back -->
+        <line x1="167" y1="161" x2="215" y2="161" stroke="#f0c040" stroke-width="3" marker-end="url(#arrowYellow2)"/>
+        <text x="230" y="157" fill="#f0c040" font-size="11" font-weight="700">SLIDE</text>
+        <text x="230" y="170" fill="#f0c040" font-size="11" font-weight="700">BACK ~5mm</text>
+        <!-- STEP 2: Main latch -->
+        <rect x="310" y="80" width="35" height="40" rx="5" fill="#4a6fa5" stroke="#6a8fc5" stroke-width="2"/>
+        <text x="327" y="95" text-anchor="middle" fill="#fff" font-size="9" font-weight="700">MAIN</text>
+        <text x="327" y="107" text-anchor="middle" fill="#fff" font-size="9" font-weight="700">LATCH</text>
+        <!-- Step 2 badge -->
+        <circle cx="380" cy="95" r="14" fill="#e94560" stroke="#fff" stroke-width="2"/>
+        <text x="380" y="100" text-anchor="middle" fill="#fff" font-size="13" font-weight="700">2</text>
+        <!-- Arrow: press latch down -->
+        <line x1="327" y1="125" x2="327" y2="155" stroke="#e94560" stroke-width="3" marker-end="url(#arrowRed2)"/>
+        <text x="327" y="175" text-anchor="middle" fill="#e94560" font-size="11" font-weight="700">PRESS</text>
+        <!-- Pull apart arrow -->
+        <line x1="180" y1="210" x2="130" y2="210" stroke="#4ecca3" stroke-width="3" marker-end="url(#arrowGreen)"/>
+        <line x1="230" y1="210" x2="280" y2="210" stroke="#4ecca3" stroke-width="3" marker-end="url(#arrowYellow2)"/>
+        <text x="205" y="214" text-anchor="middle" fill="#4ecca3" font-size="11" font-weight="700">PULL APART</text>
+        <!-- Step descriptions box -->
+        <rect x="30" y="235" width="360" height="55" rx="8" fill="rgba(78,204,163,0.1)" stroke="#4ecca3" stroke-width="1"/>
+        <circle cx="55" cy="253" r="11" fill="#e94560" stroke="#fff" stroke-width="1.5"/>
+        <text x="55" y="257" text-anchor="middle" fill="#fff" font-size="11" font-weight="700">1</text>
+        <text x="72" y="257" fill="#eee" font-size="11">Slide yellow CPA tab backward ~5mm</text>
+        <circle cx="55" cy="278" r="11" fill="#e94560" stroke="#fff" stroke-width="1.5"/>
+        <text x="55" y="282" text-anchor="middle" fill="#fff" font-size="11" font-weight="700">2</text>
+        <text x="72" y="282" fill="#eee" font-size="11">Press main latch inward, pull connector straight out</text>
       </svg>
     </div>
     <p style="color:var(--muted);font-size:0.82rem;margin-top:4px">Yellow CPA tab must slide back before the main latch releases. Same connector type as the Curt CU94FR T-connector.</p>
